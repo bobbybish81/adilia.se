@@ -1,0 +1,51 @@
+.policy-section {
+  color: #104ca0;
+  background-color: #fff;
+  padding: 0 2rem 3rem;
+  border-bottom: 1px solid #cecdcd;
+}
+
+.policy-section h2 {
+  font-size: 2rem;
+  margin: 2rem auto;
+}
+
+.policy-heading {
+  color: #104ca0;
+  font-weight: 800;
+  margin-top: 3rem;
+}
+
+.policy-section h4 {
+  font-weight: 800;
+}
+
+.policy-section p {
+  color: #515354;
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.policy-section p a {
+  color:#104ca0;
+  font-weight: 700;
+}
+
+.policy-section p a:hover {
+  color: #afb0b1;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+
+  .policy-section {
+    padding: 6rem;
+  }
+
+  .policy-section h2 {
+    font-size: 2.75rem;
+    margin: 3.5rem auto 0;
+  }
+
+}

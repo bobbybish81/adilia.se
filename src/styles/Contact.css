@@ -1,0 +1,171 @@
+.contact-section {
+  height: fit-content;
+  margin-bottom: 3rem;
+}
+
+.contact-section h1 {
+  margin: 1rem  2rem 2rem;
+  padding: 2rem;
+  color: #3E6B94;
+  text-align: center;
+  border-bottom: 1px solid #d4d3d3;
+}
+
+.contact-container {
+  margin: 0 auto;
+  color: #3E6B94;
+}
+
+.desktop-message {
+  display: none;
+}
+
+.mobile-h4 {
+  text-align: center;
+  padding: 0 2rem 0.5rem;
+}
+
+.mobile-message {
+  text-align: center;
+  padding: 0 2rem 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #edecec;
+}
+
+.contact-form textarea {
+  height: 15rem;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: 1.5px solid #3E6B94;
+}
+
+.form-btn {
+  background-color: #3E6B94;
+  border: 1px solid #2D7689;
+  border-radius: 0.4rem;
+  color: #fff;
+  margin-top: 2rem;
+  padding: 0.75rem 2rem;
+}
+  
+.form-btn:hover {
+  background-color: #180430;
+  cursor: pointer;
+}
+
+.contact-info {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-details p,
+.contact-details a {
+  font-size: 1.1rem;
+  font-weight: 550;
+  text-decoration: none;
+  color: #3E6B94;
+  margin-bottom: 0.75rem;
+}
+
+.contact-details a:hover {
+  color: #d4d3d3;
+  cursor: pointer;
+}
+
+.contact-logo {
+  margin-right: 0.5rem;
+}
+
+.desktop-message {
+  display: none;
+}
+
+.map-section {
+  width: 100%;
+  padding: 1rem 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  .contact-section {
+    height: fit-content;
+  }
+
+  .contact-section h1 {
+    margin: 8rem 2rem 4rem;
+    padding: 2rem;
+  }
+
+  .contact-container {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .mobile-h4 {
+    display: none;
+  }
+
+  .contact {
+    display: grid;
+    flex-direction: none;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact div {
+    padding-right: 2rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 3rem 3rem;
+  }
+
+  .contact-info {
+    text-align: left;
+    margin: 1rem auto;
+    font-weight: 600;
+  }
+
+  .contact-details {
+    align-items: flex-start;
+  }
+
+  .desktop-message {
+    display: block;
+  }
+
+  .mobile-message {
+    display: none;
+  }
+
+  .map-section {
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+}

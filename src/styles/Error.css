@@ -1,0 +1,34 @@
+.error-section {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3E6B94;
+}
+
+.error-section article {
+  height: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.error-section h1 {
+  width: 30rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.error-section p  {
+  font-weight: 600;
+  color: #3E6B94;
+  margin: 0 auto;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.error-section p:hover {
+  color: #d4d3d3;
+}

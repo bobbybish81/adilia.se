@@ -49,8 +49,8 @@
   padding: 1rem 0;
 }
 
-.mobile-tel:focus {
-  text-decoration: none;
+.mobile-tel:visited {
+  color: #fff;
 }
 
 .tel-icon {

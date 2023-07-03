@@ -3,6 +3,7 @@
   background-size: cover;
   color: #ffffff;
   position: relative;
+  z-index: -1;
 }
 
 .intro-article {

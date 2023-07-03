@@ -2,8 +2,6 @@
   background-image: url('../assets/intro.webp');
   background-size: cover;
   color: #ffffff;
-  position: relative;
-  z-index: -1;
 }
 
 .intro-article {
@@ -70,7 +68,6 @@
   height: 3rem;
   border: 1px solid #676666;
   border-radius: 5px;
-  z-index: 99;
 }
 
 .slide-img:hover {

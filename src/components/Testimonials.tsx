@@ -32,11 +32,16 @@ const Testimonials = () => {
           <div className='client-logos'>
             {clients.map((client, index) => (
               <div>
-                <img
-                key={index}
-                className='client-logo-img'
-                src={require(`../assets/customers/${client}.webp`)}
-                alt='service to appear'/>
+                <a
+                  href={`https://${client}.se/`}
+                  target='_blank'
+                  rel='noreferrer'>
+                  <img
+                    key={index}
+                    className='client-logo-img'
+                    src={require(`../assets/customers/${client}.webp`)}
+                    alt='service to appear'/>
+                </a>
               </div>
             ))}
           </div>

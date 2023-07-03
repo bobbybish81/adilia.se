@@ -27,6 +27,7 @@ const Slider = () => {
                 target='_blank'
                 rel='noreferrer'>
                 <img
+                  key={index}
                   className='slide-img'
                   src={require(`../assets/customers/${client}.webp`)}
                   alt={'client to appear'} />

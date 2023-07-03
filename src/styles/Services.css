@@ -50,11 +50,6 @@
     padding: 0 5rem;
   }
 
-  .services {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .services-article {
     font-size: 1rem;
     padding: 2rem;
@@ -64,4 +59,20 @@
     margin: 1.5rem;
   }
   
+  .services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .services {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

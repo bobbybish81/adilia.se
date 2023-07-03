@@ -31,12 +31,13 @@ const Testimonials = () => {
           <h3 className='client-logo-header'>Du är i bra sällskap</h3>
           <div className='client-logos'>
             {clients.map((client, index) => (
+              <div>
                 <img
                 key={index}
                 className='client-logo-img'
-                // src={require(`../assets/services/${service.title}.webp`)}
-                src={require(`../assets/services/${client}.webp`)}
+                src={require(`../assets/customers/${client}.webp`)}
                 alt='service to appear'/>
+              </div>
             ))}
           </div>
         </div>

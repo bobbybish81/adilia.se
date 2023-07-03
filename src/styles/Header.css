@@ -4,14 +4,15 @@
   width: 100%;
   position: fixed;
   top: 0;
+  left: 0;
   transition: 0.5s;
   display: none;
+  z-index: 99;
 }
 
 .desktop-nav {
-  max-width: 1400px;
   margin: 1.5rem auto;
-  padding: 0 5rem;
+  padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +30,8 @@
 }
 
 .contact-btn {
-  padding: 0.75rem 1.5rem;
+  width: 10rem;
+  padding: 0.75rem;
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
@@ -130,10 +132,16 @@ ul {
   /* display: flex; */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 948px) {
 
   .desktop-header {
     display: block;
+  }
+
+  .desktop-nav {
+    max-width: 1400px;
+    margin: 1.5rem auto;
+    padding: 0 5rem;
   }
 
   .mobile-header {

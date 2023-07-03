@@ -2,7 +2,7 @@
   width: 100%;
   margin-bottom: 3rem;
   display: flex;
-  padding: 0 0 3rem;
+  padding: 0;
 }
 
 .testimonials-container {
@@ -27,8 +27,8 @@
 
 .testimonial-article {
   border: 1px solid #ececec;
-  padding: 2rem;
-  margin: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -39,10 +39,12 @@
 
 .testimonial-article h5 {
   color: #3E6B94;
+  text-align: center;
 }
 
 .testimonial-article h6 {
   color: #a9a7a7;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -59,15 +61,32 @@
 }
 
 .client-logos {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
 }
-.client-logos-img {
 
+.client-logos div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
+.client-logo-img {
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid #676666;
+    border-radius: 5px;
+    z-index: 99;
+  }
+  
+.client-logo-img:hover {
+  cursor: pointer;
+  width: 10.5rem;
+  height: 3.5rem;
+}
+
+@media screen and (min-width: 1024px) {
 
   .testimonials-container {
     width: 100%;
@@ -86,5 +105,20 @@
 
   .testimonial-article p {
     font-size: 1rem;
+  }
+
+  .client-logos {
+    height: 4rem;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .client-logos div {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials {
+    grid-template-columns: repeat(5, 1fr);
   }
 }

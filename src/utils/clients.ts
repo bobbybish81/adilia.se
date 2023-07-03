@@ -1,9 +1,9 @@
 const clients = [
-  'Renovering',
-  'Renovering',
-  'Renovering',
-  'Renovering',
-  'Renovering',
+  'andresmaleri',
+  'dryft',
+  'jacobsenbygg',
+  'koncepthem',
+  'takeliten'
 ]
 
 export default clients

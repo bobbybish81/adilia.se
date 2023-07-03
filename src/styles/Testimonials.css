@@ -100,6 +100,7 @@
   
   .testimonial-article {
     padding: 3rem;
+    margin: 1rem;
   }
 
   .testimonial-article p {
@@ -108,7 +109,7 @@
 
   .client-logos {
     height: 4rem;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .client-logos div {
@@ -117,7 +118,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .testimonials {
+  .client-logos {
     grid-template-columns: repeat(5, 1fr);
   }
 }

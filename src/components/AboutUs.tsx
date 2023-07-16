@@ -12,7 +12,7 @@ const AboutUs = () => {
             <p>Vi erbjuder strategisk vägledning och stöd för att hjälpa dig bygga en stark och motiverad arbetsstyrka. Från rekrytering till bemanning, vi förstår vikten av att hitta rätt personer som överensstämmer med din organisations värderingar och mål. Vårt team är skickligt på att identifiera topptalanger, vilket säkerställer en sömlös anställningsprocess som tar med de bästa människorna till ditt team.</p>
             <p>Dessutom erbjuder vi en rad tjänster för att förbättra din affärsverksamhet. Oavsett om du behöver expertrådgivning för att navigera i komplexa utmaningar eller behöver hjälp med renoveringsprojekt, finns våra erfarna proffs här för att hjälpa dig.</p>
           </article>
-          <article className='aboutus-info'>
+          {/* <article className='aboutus-info'>
             <img
               className='aboutus-img'
               src={require('../assets/aboutus-img.webp')}
@@ -21,7 +21,7 @@ const AboutUs = () => {
               <p>{`"Vårt mål är att vara din pålitliga partner i Stockholm, tillhandahålla experttjänster för att lyfta ditt företag och hjälpa dig att nå framgång genom att låsa upp ditt företags fulla potential och överträffa dina förväntningar"`}</p>
               <h6>CEO, Tariq Kermoury</h6>
             </div>
-          </article>
+          </article> */}
         </div>
       </div>
     </section>

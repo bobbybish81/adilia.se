@@ -1,5 +1,4 @@
 import React from 'react';
-import clients from '../utils/clients';
 import '../styles/Testimonials.css';
 
 const Testimonials = () => {
@@ -27,23 +26,6 @@ const Testimonials = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis! Porro perferendis modi magni, quos exercitationem veniam quo, aspernatur quasi blanditiis quibusdam obcaecati alias sunt!</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis!</p>
             </article>
-          </div>
-          <h3 className='client-logo-header'>Du är i bra sällskap</h3>
-          <div className='client-logos'>
-            {clients.map((client, index) => (
-              <div>
-                <a
-                  href={`https://${client}.se/`}
-                  target='_blank'
-                  rel='noreferrer'>
-                  <img
-                    key={index}
-                    className='client-logo-img'
-                    src={require(`../assets/customers/${client}.webp`)}
-                    alt='service to appear'/>
-                </a>
-              </div>
-            ))}
           </div>
         </div>
       </section>

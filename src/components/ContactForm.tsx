@@ -23,7 +23,7 @@ const ContactForm = () => {
   //     }, (error) => {
   //         console.log(error.text);
   //     });
-  //     alert('Message sent to robertbishwebdeveloper.com')
+  //     alert('meddelande skickat till adilia.se')
   //     navigate('/');
   // };
 
@@ -57,12 +57,13 @@ const ContactForm = () => {
           style={{color: selectedValue === '' ? '#757575' : '#000'}}
           onChange={handleSelectChange}
           required>
-          <option disabled value=''>Välj en tjänst</option>
+          <option disabled selected value=''>Välj en tjänst</option>
           {services.map((service, index) => (
             <option
               key={index}
               value={service.title}>{service.title}</option>
           ))}
+          <option value='andra'>{'Andra'}</option>
         </select>
         <textarea name='message' placeholder='Beskriv ert behov, förutsättningar & eventuellt adress'/>
         <button

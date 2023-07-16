@@ -6,6 +6,7 @@ const Slider = () => {
   return (
     <section className='slider-container'>
       <div className='slider'>
+      <h3 className='slider-header'>Du är i bra sällskap</h3>
         <div className='slide-track'>
           {clients.map((client, index) => 
             <div className='slide'>

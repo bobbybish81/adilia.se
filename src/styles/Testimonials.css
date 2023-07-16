@@ -54,37 +54,6 @@
   font-style: italic;
 }
 
-.client-logo-header {
-  color: #3E6B94;
-  margin: 1rem auto 3rem;
-  text-align: center;
-}
-
-.client-logos {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  align-items: center;
-}
-
-.client-logos div {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-}
-
-.client-logo-img {
-    width: 10rem;
-    height: 3rem;
-    border: 1px solid #676666;
-    border-radius: 5px;
-  }
-  
-.client-logo-img:hover {
-  cursor: pointer;
-  width: 10.5rem;
-  height: 3.5rem;
-}
-
 @media screen and (min-width: 1024px) {
 
   .testimonials-container {
@@ -107,18 +76,4 @@
     font-size: 1rem;
   }
 
-  .client-logos {
-    height: 4rem;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .client-logos div {
-    margin-bottom: 3rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .client-logos {
-    grid-template-columns: repeat(5, 1fr);
-  }
 }

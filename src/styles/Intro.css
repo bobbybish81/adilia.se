@@ -16,6 +16,7 @@
 .intro-article h1 {
   font-size: 3.5rem;
   margin-bottom: 3rem;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
 
 .slider-container {
@@ -32,8 +33,15 @@
   overflow: hidden;
 }
 
+.slider-header {
+  color: #FFF;
+  margin: 2rem auto 0;
+  text-align: center;
+  text-shadow: -0.25px 0 black, 0 0.25px black, 0.25px 0 black, 0 -0.25px black;
+}
+
 .slide-track {
-  width: 12rem;
+  width: 15rem;
   display: flex;
   width: calc(12rem * 10);
   animation: scroll 40s linear infinite;
@@ -97,11 +105,15 @@
   }
 
   .slider-container {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 
   .slider {
     width: 60%;
+  }
+
+  .slider-header {
+    margin: 0 auto;
   }
 
 }

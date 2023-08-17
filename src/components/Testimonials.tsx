@@ -20,7 +20,7 @@ const Testimonials = () => {
             </article>
             <article className='testimonial-article'>
               <h5>David F</h5>
-              <h6>Projektledar</h6>
+              <h6>Projektledare</h6>
               <p>"En enkel investering att göra då den fortsätter ge oss avkastning långt över kostnaden. Ett professionellt bemötande och tydliga riktlinjer gör Adilia till en av våra viktigaste samarbetsparters."</p>
             </article>
           </div>

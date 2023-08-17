@@ -5,8 +5,7 @@ const Slider = () => {
 
   return (
     <section className='slider-container'>
-      <div className='slider'>
-      <h3 className='slider-header'>Du är i bra sällskap</h3>
+      <article className='slider'>
         <div className='slide-track'>
           {clients.map((client, index) => 
             <div className='slide'>
@@ -36,7 +35,8 @@ const Slider = () => {
             </div>
           )}
         </div>
-      </div>
+        <h3 className='slider-header'>Du är i bra sällskap</h3>
+      </article>
     </section>
   );
 };

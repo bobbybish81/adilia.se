@@ -70,12 +70,12 @@
 
   .aboutus {
     margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
   }
 
   .aboutus-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 0 1rem;
     line-height: 2rem;
   }

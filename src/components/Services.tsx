@@ -1,6 +1,13 @@
 import React from 'react';
 import services from '../utils/services';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandshake, faChartLine } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Services.css';
+
+const serviceLogos = [
+  faHandshake,
+  faChartLine,
+];
 
 const Services = () => {
 
@@ -13,11 +20,9 @@ const Services = () => {
             <article
               className='services-article'
               key={index}>
-              <img
-                className='service-img'
-                // src={require(`../assets/services/${service.title}.webp`)}
-                src={require(`../assets/services/Renovering.webp`)}
-                alt='service to appear'/>
+                <div>
+                  <FontAwesomeIcon className='services-icon' icon={serviceLogos[index]} />
+                </div>
               <h4>{service.title}</h4>
               <p>{service.description}</p>
             </article>

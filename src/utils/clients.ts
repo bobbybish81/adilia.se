@@ -1,9 +1,13 @@
 const clients = [
   'andresmaleri',
   'dryft',
+  'ibexbygg',
   'jacobsenbygg',
+  'juper',
   'koncepthem',
-  'takeliten'
+  'snickarkraft',
+  'takeliten',
+
 ]
 
 export default clients

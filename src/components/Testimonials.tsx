@@ -9,22 +9,19 @@ const Testimonials = () => {
         <h1>Möt några av våra kunder</h1>
           <div className='testimonials'>
             <article className='testimonial-article'>
-              <h5>Zlatan Ibrahomovic</h5>
-              <h6>International Superstar</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis! Porro perferendis modi magni, quos exercitationem veniam quo, aspernatur quasi blanditiis quibusdam obcaecati alias sunt!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis!</p>
+              <h5>Dilan S</h5>
+              <h6>Kalkylator</h6>
+              <p>"Adilia var väldigt tydliga med hur de kunde leverera och de höll vad de lovade. Vi fick ett bra kompetenslyft genom vårat samarbete som fortsätter än idag."</p>
             </article>
             <article className='testimonial-article'>
-              <h5>Christiano Ronaldo</h5>
-              <h6>Cry baby with inflated ego</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis! Porro perferendis modi magni, quos exercitationem veniam quo, aspernatur quasi blanditiis quibusdam obcaecati alias sunt!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis!</p>
+              <h5>Alex P</h5>
+              <h6>VD</h6>
+              <p>"Vi valde att samarbeta med Adilia för att vi ville växa. De gav oss nya projekt och ingångar som vi annars inte hade haft. Därför väljer vi att jobba vidare med dem."</p>
             </article>
             <article className='testimonial-article'>
-              <h5>Lionel Messi</h5>
-              <h6>The GOAT</h6>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis! Porro perferendis modi magni, quos exercitationem veniam quo, aspernatur quasi blanditiis quibusdam obcaecati alias sunt!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa sed assumenda, accusantium amet debitis!</p>
+              <h5>David F</h5>
+              <h6>Projektledar</h6>
+              <p>"En enkel investering att göra då den fortsätter ge oss avkastning långt över kostnaden. Ett professionellt bemötande och tydliga riktlinjer gör Adilia till en av våra viktigaste samarbetsparters."</p>
             </article>
           </div>
         </div>

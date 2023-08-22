@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://adilia.se
+
+# Sitemaps
+Sitemap: https://adilia.se/sitemap.xml

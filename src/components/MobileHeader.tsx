@@ -52,7 +52,7 @@ const MobileHeader = ({ scrollToSection } : MobileHeaderProps) => {
                 <li onClick={menuToggle}><AiOutlineStar className='link-icon'/>VITTNESMÅL</li>
               </Link>
               <Link to='/contact' className='mobile-navlink'>
-                <li onClick={menuToggle}><AiOutlineStar className='link-icon'/>KONTAKT OSS</li>
+                <li onClick={menuToggle}><AiOutlineStar className='link-icon'/>KONTAKTA OSS</li>
               </Link>
               <Link to='/integritetspolicy' className='mobile-navlink'>
                 <li onClick={menuToggle}><AiOutlineStar className='link-icon'/>INTEGRITETSPOLICY</li>

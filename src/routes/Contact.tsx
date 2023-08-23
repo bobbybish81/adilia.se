@@ -10,7 +10,7 @@ const Contact = () => {
     <main>
       <section className='contact-section'>
         <div className='contact-container'>
-          <h1>Kontakt Oss</h1>
+          <h1>Kontakta Oss</h1>
           <h4 className='mobile-h4'>Vi hjälper dig gärna</h4>
           <p className='mobile-message'>Vårt team hjälper dig med alla frågor eller kommentarer relaterade till din serviceförfrågan. Ringa oss eller fyll i formuläret så skickar Adilia ett snabbt svar.</p>
           <article className='contact'>

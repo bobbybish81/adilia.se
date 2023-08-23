@@ -57,7 +57,7 @@ const DesktopHeader = ({ scrollToSection } : DesktopHeaderProps) => {
           </div>
           <Link to='/contact'>
             <button className='contact-btn'>
-              Kontakt Oss
+              Kontakta Oss
             </button>
           </Link>
         </nav>

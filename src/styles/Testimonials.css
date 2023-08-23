@@ -1,6 +1,6 @@
 .testimonials-section {
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   display: flex;
   padding: 0;
 }
@@ -55,6 +55,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+  .testimonials-section {
+    margin-bottom: 3rem;
+  }
 
   .testimonials-container {
     width: 100%;
